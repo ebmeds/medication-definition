@@ -73,7 +73,7 @@ InstanceOf: ClinicalUseDefinition
 * insert DiclofenacSubstancesAsSubjects
 * undesirableEffect.classification = $ICPC#K22 "Rectal bleeding"
 
-Instance: diclofenac-consider-interactions-risk-of-bleeding
+Instance: diclofenac-warning-consider-interactions-risk-of-bleeding
 InstanceOf: ClinicalUseDefinition
 * type = #warning
 * insert DiclofenacSubstancesAsSubjects

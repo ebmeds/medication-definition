@@ -1,6 +1,6 @@
 {
   "resourceType": "ClinicalUseDefinition",
-  "id": "diclofenac-consider-interactions-risk-of-bleeding",
+  "id": "diclofenac-warning-consider-interactions-risk-of-bleeding",
   "type": "warning",
   "subject": [
     {

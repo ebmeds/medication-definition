@@ -55,7 +55,7 @@
       "reference": "ClinicalUseDefinition/diclofenac-undesirable-effect-rectal-bleeding"
     },
     {
-      "reference": "diclofenac-warning-consider-interactions-risk-of-bleeding"
+      "reference": "ClinicalUseDefinition/diclofenac-warning-consider-interactions-risk-of-bleeding"
     }
   ]
 }
