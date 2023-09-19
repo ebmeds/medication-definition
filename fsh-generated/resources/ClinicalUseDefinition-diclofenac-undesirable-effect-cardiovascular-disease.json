@@ -1,0 +1,24 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "diclofenac-undesirable-effect-cardiovascular-disease",
+  "type": "undesirable-effect",
+  "subject": [
+    {
+      "reference": "Substance/diclofenac-potassium"
+    },
+    {
+      "reference": "Substance/diclofenac-sodium"
+    }
+  ],
+  "undesirableEffect": {
+    "classification": {
+      "coding": [
+        {
+          "code": "K22",
+          "system": "urn:oid:1.2.246.537.6.31.2007",
+          "display": "Risk factor for cardiovascular disease"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "diclofenac-only-product-in-oral-dose-form",
+  "code": {
+    "coding": [
+      {
+        "code": "778988008",
+        "system": "http://snomed.info/sct",
+        "display": "Diclofenac only product in oral dose form"
+      }
+    ]
+  },
+  "medicineClassification": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "SuitabilityForOlderAdults",
+            "system": "http://hl7.org/fhir/us/example/CodeSystem/medicine-classification-types"
+          }
+        ]
+      },
+      "classification": [
+        {
+          "coding": [
+            {
+              "code": "C",
+              "system": "http://hl7.org/fhir/us/example/CodeSystem/suitability-for-older-adults"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clinicalUseIssue": [
+    {
+      "reference": "ClinicalUseDefinition/diclofenac-warning-for-short-term-use-only"
+    },
+    {
+      "reference": "ClinicalUseDefinition/diclofenac-contraindication-acute-renal-failure"
+    },
+    {
+      "reference": "ClinicalUseDefinition/diclofenac-undesirable-effect-swelling"
+    },
+    {
+      "reference": "ClinicalUseDefinition/diclofenac-undesirable-effect-kidney-symptom"
+    },
+    {
+      "reference": "ClinicalUseDefinition/diclofenac-undesirable-effect-heart-failure"
+    },
+    {
+      "reference": "ClinicalUseDefinition/diclofenac-undesirable-effect-cardiovascular-disease"
+    },
+    {
+      "reference": "ClinicalUseDefinition/diclofenac-undesirable-effect-rectal-bleeding"
+    },
+    {
+      "reference": "diclofenac-warning-consider-interactions-risk-of-bleeding"
+    }
+  ]
+}

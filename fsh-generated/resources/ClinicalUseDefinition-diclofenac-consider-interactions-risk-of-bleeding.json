@@ -1,0 +1,23 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "diclofenac-consider-interactions-risk-of-bleeding",
+  "type": "warning",
+  "subject": [
+    {
+      "reference": "Substance/diclofenac-potassium"
+    },
+    {
+      "reference": "Substance/diclofenac-sodium"
+    }
+  ],
+  "warning": {
+    "code": {
+      "coding": [
+        {
+          "code": "ConsiderInteractionsRiskOfBleeding",
+          "system": "http://hl7.org/fhir/us/example/CodeSystem/clinical-use-warnings"
+        }
+      ]
+    }
+  }
+}

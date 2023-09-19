@@ -1,0 +1,23 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "atorvastatin-warning-consider-interactions",
+  "type": "warning",
+  "subject": [
+    {
+      "reference": "Substance/atorvastatin-calcium"
+    },
+    {
+      "reference": "Substance/atorvastatin-calcium-trihydrate"
+    }
+  ],
+  "warning": {
+    "code": {
+      "coding": [
+        {
+          "code": "ConsiderInteractions",
+          "system": "http://hl7.org/fhir/us/example/CodeSystem/clinical-use-warnings"
+        }
+      ]
+    }
+  }
+}

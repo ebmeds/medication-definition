@@ -1,0 +1,49 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "atorvastatin-only-product-in-oral-dose-form",
+  "code": {
+    "coding": [
+      {
+        "code": "773456008",
+        "system": "http://snomed.info/sct",
+        "display": "Atorvastatin only product in oral dose form"
+      }
+    ]
+  },
+  "medicineClassification": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "SuitabilityForOlderAdults",
+            "system": "http://hl7.org/fhir/us/example/CodeSystem/medicine-classification-types"
+          }
+        ]
+      },
+      "classification": [
+        {
+          "coding": [
+            {
+              "code": "A",
+              "system": "http://hl7.org/fhir/us/example/CodeSystem/suitability-for-older-adults"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "clinicalUseIssue": [
+    {
+      "reference": "ClinicalUseDefinition/atorvastatin-undesirable-effect-muscle-pain"
+    },
+    {
+      "reference": "ClinicalUseDefinition/atorvastatin-undesirable-effect-weakness"
+    },
+    {
+      "reference": "ClinicalUseDefinition/atorvastatin-warning-consider-interactions"
+    },
+    {
+      "reference": "ClinicalUseDefinition/atorvastatin-interaction-grapefruit"
+    }
+  ]
+}

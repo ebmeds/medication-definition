@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "example",
+  "name": "SuitabilityForOlderAdults",
+  "id": "suitability-for-older-adults",
+  "description": "An example classification system for coding suitability for older adults",
+  "url": "http://hl7.org/fhir/us/example/CodeSystem/suitability-for-older-adults",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Suitable for older adults",
+      "designation": [
+        {
+          "language": "en",
+          "value": "Suitable for older adults"
+        },
+        {
+          "language": "fi",
+          "value": "Sopii iäkkäille"
+        },
+        {
+          "language": "sv",
+          "value": "Lämpar sig för äldre personer"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Suitable for older adults, with specific precautions",
+      "designation": [
+        {
+          "language": "en",
+          "value": "Suitable for older adults, with specific precautions"
+        },
+        {
+          "language": "fi",
+          "value": "Soveltuu varauksin iäkkäille"
+        },
+        {
+          "language": "sv",
+          "value": "Lämpar sig med förbehåll för äldre personer"
+        }
+      ]
+    }
+  ],
+  "experimental": true
+}

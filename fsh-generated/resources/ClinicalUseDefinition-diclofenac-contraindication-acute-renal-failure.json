@@ -1,0 +1,26 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "diclofenac-contraindication-acute-renal-failure",
+  "type": "contraindication",
+  "subject": [
+    {
+      "reference": "Substance/diclofenac-potassium"
+    },
+    {
+      "reference": "Substance/diclofenac-sodium"
+    }
+  ],
+  "contraindication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "coding": [
+          {
+            "code": "N17",
+            "system": "urn:oid:1.2.246.537.6.1.1999",
+            "display": "Insufficientia renalis acuta"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "example",
+  "name": "ClinicalUseWarnings",
+  "id": "clinical-use-warnings",
+  "description": "An example set of warnings for ClinicalUseDefinition",
+  "url": "http://hl7.org/fhir/us/example/CodeSystem/clinical-use-warnings",
+  "concept": [
+    {
+      "code": "ConsiderInteractions",
+      "display": "Consider interactions",
+      "designation": [
+        {
+          "language": "en",
+          "value": "Consider interactions"
+        },
+        {
+          "language": "fi",
+          "value": "Huomioi yhteisvaikutukset"
+        },
+        {
+          "language": "sv",
+          "value": "Beakta interaktioner"
+        }
+      ]
+    },
+    {
+      "code": "ConsiderInteractionsRiskOfBleeding",
+      "display": "Consider interactions",
+      "designation": [
+        {
+          "language": "en",
+          "value": "Consider potential interactions, especially with preparations that increase risk of bleeding"
+        },
+        {
+          "language": "fi",
+          "value": "Huomioi yhteisvaikutukset, etenkin verenvuotoa lisäävien lääkkeiden kanssa"
+        },
+        {
+          "language": "sv",
+          "value": "Beakta interaktioner, särskilt med preparate som ökar risken för blödningar"
+        }
+      ]
+    },
+    {
+      "code": "ForShortTermUseOnly",
+      "display": "For short-term use only",
+      "designation": [
+        {
+          "language": "en",
+          "value": "For short-term use only"
+        },
+        {
+          "language": "fi",
+          "value": "Vain lyhytaikaiseen käyttöön"
+        },
+        {
+          "language": "sv",
+          "value": "Endast för kortvarigt bruk"
+        }
+      ]
+    }
+  ],
+  "experimental": true
+}

@@ -1,0 +1,16 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "example",
+  "name": "MedicineClassificationTypes",
+  "id": "medicine-classification-types",
+  "description": "An example of the available types of classification for MedicationKnowledge",
+  "url": "http://hl7.org/fhir/us/example/CodeSystem/medicine-classification-types",
+  "concept": [
+    {
+      "code": "SuitabilityForOlderAdults",
+      "display": "Suitability for older adults (≥ 75 years)"
+    }
+  ],
+  "experimental": true
+}

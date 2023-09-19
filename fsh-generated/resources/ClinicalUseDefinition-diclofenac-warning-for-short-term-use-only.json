@@ -1,0 +1,23 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "diclofenac-warning-for-short-term-use-only",
+  "type": "warning",
+  "subject": [
+    {
+      "reference": "Substance/diclofenac-potassium"
+    },
+    {
+      "reference": "Substance/diclofenac-sodium"
+    }
+  ],
+  "warning": {
+    "code": {
+      "coding": [
+        {
+          "code": "ForShortTermUseOnly",
+          "system": "http://hl7.org/fhir/us/example/CodeSystem/clinical-use-warnings"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "atorvastatin-interaction-grapefruit",
+  "type": "interaction",
+  "subject": [
+    {
+      "reference": "Substance/atorvastatin-calcium"
+    },
+    {
+      "reference": "Substance/atorvastatin-calcium-trihydrate"
+    }
+  ],
+  "interaction": {
+    "interactant": [
+      {
+        "itemCodeableConcept": {
+          "coding": [
+            {
+              "code": "256315005",
+              "system": "http://snomed.info/sct",
+              "display": "Grapefruit"
+            }
+          ]
+        }
+      }
+    ],
+    "type": {
+      "coding": [
+        {
+          "code": "drug-food",
+          "system": "http://hl7.org/fhir/interaction-type"
+        }
+      ]
+    }
+  }
+}

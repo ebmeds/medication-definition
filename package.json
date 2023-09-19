@@ -1,0 +1,10 @@
+{
+  "name": "medication-definition",
+  "private": true,
+  "scripts": {
+    "build": "sushi"
+  },
+  "devDependencies": {
+    "fsh-sushi": "^3.3.3"
+  }
+}

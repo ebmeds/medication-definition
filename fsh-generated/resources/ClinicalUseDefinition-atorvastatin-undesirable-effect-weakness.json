@@ -1,0 +1,24 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "atorvastatin-undesirable-effect-weakness",
+  "type": "undesirable-effect",
+  "subject": [
+    {
+      "reference": "Substance/atorvastatin-calcium"
+    },
+    {
+      "reference": "Substance/atorvastatin-calcium-trihydrate"
+    }
+  ],
+  "undesirableEffect": {
+    "classification": {
+      "coding": [
+        {
+          "code": "A04",
+          "system": "urn:oid:1.2.246.537.6.31.2007",
+          "display": "Weakness/tiredness general"
+        }
+      ]
+    }
+  }
+}
