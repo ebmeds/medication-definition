@@ -1,0 +1,22 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "warfarin-serious-adverse-reaction-bleeding",
+  "type": "undesirable-effect",
+  "subject": [
+    {
+      "reference": "Substance/warfarin"
+    }
+  ],
+  "undesirableEffect": {
+    "classification": {
+      "coding": [
+        {
+          "code": "1",
+          "system": "http://hl7.org/fhir/us/example/CodeSystem/serious-adverse-reaction",
+          "display": "Verenvuodot"
+        }
+      ],
+      "text": "Vakavana seurauksena verenvuodot - 'esim. liian iso annos, INR>tavoite, yhteisvaikutukset"
+    }
+  }
+}

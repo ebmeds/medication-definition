@@ -13,3 +13,5 @@ Alias: $ICPC = urn:oid:1.2.246.537.6.31.2007
 Alias: $SCT = http://snomed.info/sct
 // Nordic Article Number - Referenced from: https://simplifier.net/FinnishPHRR4/fiphr-cs-vnrcode/~json
 Alias: $VNR = urn:oid:1.2.246.537.6.55.2004
+// Fimea - Lääkkeenantoreitti ja -tapa
+Alias: $ROUTE = unr:oid:1.2.246.537.6.1403.202001

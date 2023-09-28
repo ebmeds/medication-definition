@@ -17,6 +17,11 @@
           "code": "U14",
           "system": "urn:oid:1.2.246.537.6.31.2007",
           "display": "Kidney symptom/complaint"
+        },
+        {
+          "code": "698463001",
+          "system": "http://snomed.info/sct",
+          "display": "At increased risk of chronic kidney disease"
         }
       ]
     }

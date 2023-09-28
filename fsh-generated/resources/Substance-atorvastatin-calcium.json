@@ -20,6 +20,11 @@
           "code": "108601004",
           "system": "http://snomed.info/sct",
           "display": "Atorvastatin calcium"
+        },
+        {
+          "code": "C10AA05",
+          "system": "urn:oid:1.2.246.537.6.32.2007",
+          "display": "Atorvastatiini"
         }
       ]
     }

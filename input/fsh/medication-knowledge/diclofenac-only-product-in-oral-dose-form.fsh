@@ -22,10 +22,12 @@ InstanceOf: MedicationKnowledge
 Instance: diclofenac-potassium
 InstanceOf: Substance
 * insert Substance($SCT#108515008 "Diclofenac potassium")
+* code.concept.coding[1] = $ATC#M01AB05 "Diklofenaakki"
 
 Instance: diclofenac-sodium
 InstanceOf: Substance
 * insert Substance($SCT#62039007 "Diclofenac sodium")
+* code.concept.coding[1] = $ATC#M01AB05 "Diklofenaakki"
 
 RuleSet: DiclofenacSubstancesAsSubjects
 * subject[+] = Reference(diclofenac-potassium)
@@ -41,31 +43,40 @@ Instance: diclofenac-contraindication-acute-renal-failure
 InstanceOf: ClinicalUseDefinition
 * type = #contraindication
 * insert DiclofenacSubstancesAsSubjects
-* contraindication.diseaseSymptomProcedure.concept = $ICD10#N17 "Insufficientia renalis acuta"
+* contraindication.diseaseSymptomProcedure.concept
+  * coding[+] = $ICD10#N17 "Insufficientia renalis acuta"
+  * coding[+] = $SCT#14669001 "Acute kidney injury"
 
 Instance: diclofenac-undesirable-effect-swelling
 InstanceOf: ClinicalUseDefinition
 * type = #undesirable-effect
 * insert DiclofenacSubstancesAsSubjects
-* undesirableEffect.classification = $ICPC#A08 "Swelling"
+* undesirableEffect.classification
+  * coding[+] = $ICPC#A08 "Swelling"
+  * coding[+] = $SCT#65124004 "Swelling"
 
 Instance: diclofenac-undesirable-effect-heart-failure
 InstanceOf: ClinicalUseDefinition
 * type = #undesirable-effect
 * insert DiclofenacSubstancesAsSubjects
-* undesirableEffect.classification = $ICPC#K77 "Heart failure"
+* undesirableEffect.classification
+  * coding[+] = $ICPC#K77 "Heart failure"
+  * coding[+] = $ICD10#I50 "Insufficientia cordis"
+  * coding[+] = $SCT#609386002 "At increased risk for heart failure"
 
 Instance: diclofenac-undesirable-effect-kidney-symptom
 InstanceOf: ClinicalUseDefinition
 * type = #undesirable-effect
 * insert DiclofenacSubstancesAsSubjects
-* undesirableEffect.classification = $ICPC#U14 "Kidney symptom/complaint"
+* undesirableEffect.classification
+  * coding[+] = $ICPC#U14 "Kidney symptom/complaint" // ???
+  * coding[+] = $SCT#698463001 "At increased risk of chronic kidney disease" // ???
 
 Instance: diclofenac-undesirable-effect-cardiovascular-disease
 InstanceOf: ClinicalUseDefinition
 * type = #undesirable-effect
 * insert DiclofenacSubstancesAsSubjects
-* undesirableEffect.classification = $ICPC#K22 "Risk factor for cardiovascular disease"
+* undesirableEffect.classification = $ICPC#K22 "Risk factor for cardiovascular disease" // ???
 
 Instance: diclofenac-undesirable-effect-rectal-bleeding
 InstanceOf: ClinicalUseDefinition

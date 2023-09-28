@@ -18,6 +18,11 @@
             "code": "N17",
             "system": "urn:oid:1.2.246.537.6.1.1999",
             "display": "Insufficientia renalis acuta"
+          },
+          {
+            "code": "14669001",
+            "system": "http://snomed.info/sct",
+            "display": "Acute kidney injury"
           }
         ]
       }

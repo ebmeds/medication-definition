@@ -1,0 +1,37 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "warfarin-only-product-in-oral-dose-form",
+  "code": {
+    "coding": [
+      {
+        "code": "780775008",
+        "system": "http://snomed.info/sct",
+        "display": "Warfarin only product in oral dose form"
+      }
+    ]
+  },
+  "definitional": {
+    "intendedRoute": [
+      {
+        "coding": [
+          {
+            "code": "1057",
+            "system": "unr:oid:1.2.246.537.6.1403.202001",
+            "display": "Oropharyngeal use"
+          }
+        ]
+      }
+    ]
+  },
+  "clinicalUseIssue": [
+    {
+      "reference": "ClinicalUseDefinition/warfarin-serious-adverse-reaction-bleeding"
+    },
+    {
+      "reference": "ClinicalUseDefinition/warfarin-serious-adverse-reaction-blockages"
+    },
+    {
+      "reference": "ClinicalUseDefinition/warfarin-serious-adverse-reaction-fetal-effects"
+    }
+  ]
+}

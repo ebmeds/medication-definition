@@ -1,0 +1,31 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "warfarin-serious-adverse-reaction-fetal-effects",
+  "type": "undesirable-effect",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "Pregnancy",
+          "system": "http://hl7.org/fhir/clinical-use-definition-category"
+        }
+      ]
+    }
+  ],
+  "subject": [
+    {
+      "reference": "Substance/warfarin"
+    }
+  ],
+  "undesirableEffect": {
+    "classification": {
+      "coding": [
+        {
+          "code": "3",
+          "system": "http://hl7.org/fhir/us/example/CodeSystem/serious-adverse-reaction",
+          "display": "Sikiöhaitat"
+        }
+      ]
+    }
+  }
+}

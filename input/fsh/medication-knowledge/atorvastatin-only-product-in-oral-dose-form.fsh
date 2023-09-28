@@ -16,10 +16,12 @@ InstanceOf: MedicationKnowledge
 Instance: atorvastatin-calcium
 InstanceOf: Substance
 * insert Substance($SCT#108601004 "Atorvastatin calcium")
+* code.concept.coding[1] = $ATC#C10AA05 "Atorvastatiini"
 
 Instance: atorvastatin-calcium-trihydrate
 InstanceOf: Substance
 * insert Substance($SCT#725658002 "Atorvastatin calcium trihydrate")
+* code.concept.coding[1] = $ATC#C10AA05 "Atorvastatiini"
 
 RuleSet: AtorvastatinSubstancesAsSubjects
 * subject[+] = Reference(atorvastatin-calcium)
@@ -29,13 +31,19 @@ Instance: atorvastatin-undesirable-effect-muscle-pain
 InstanceOf: ClinicalUseDefinition
 * type = #undesirable-effect
 * insert AtorvastatinSubstancesAsSubjects
-* undesirableEffect.classification = $ICPC#L18 "Muscle pain"
+* undesirableEffect.classification
+  * coding[+] = $ICPC#L18 "Muscle pain"
+  * coding[+] = $ICD10#M79.1 "Lihassärky"
+  * coding[+] = $SCT#68962001 "Muscle pain"
 
 Instance: atorvastatin-undesirable-effect-weakness
 InstanceOf: ClinicalUseDefinition
 * type = #undesirable-effect
 * insert AtorvastatinSubstancesAsSubjects
-* undesirableEffect.classification = $ICPC#A04 "Weakness/tiredness general"
+* undesirableEffect.classification
+  * coding[+] = $ICPC#A04 "Weakness/tiredness general"
+  * coding[+] = $ICD10#R53 "Huonovointisuus ja väsymys"
+  * coding[+] = $SCT#26544005 "Muscle weakness"
 
 Instance: atorvastatin-warning-consider-interactions
 InstanceOf: ClinicalUseDefinition

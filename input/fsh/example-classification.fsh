@@ -20,3 +20,19 @@ Description: "An example classification system for coding suitability for older 
 * #C insert Designation(en, [["Suitable for older adults, with specific precautions"]])
 * #C insert Designation(fi, "Soveltuu varauksin iäkkäille")
 * #C insert Designation(sv, "Lämpar sig med förbehåll för äldre personer")
+
+CodeSystem: SeriousAdverseReaction
+Id: serious-adverse-reaction
+Description:  "An example of the types of serious adverse reactions"
+* ^status = #draft
+* ^experimental = true
+* ^content = #example
+* #1 "Bleeding"
+* #1 insert Designation(en, "Bleeding")
+* #1 insert Designation(fi, "Verenvuodot")
+* #2 "Blockages"
+* #2 insert Designation(en, "Blockages")
+* #2 insert Designation(fi, "Tukokset")
+* #3 "Fetal effects"
+* #3 insert Designation(en, "Fetal effects")
+* #3 insert Designation(fi, "Sikiöhaitat")

@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "example",
+  "name": "SeriousAdverseReaction",
+  "id": "serious-adverse-reaction",
+  "description": "An example of the types of serious adverse reactions",
+  "url": "http://hl7.org/fhir/us/example/CodeSystem/serious-adverse-reaction",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Bleeding",
+      "designation": [
+        {
+          "language": "en",
+          "value": "Bleeding"
+        },
+        {
+          "language": "fi",
+          "value": "Verenvuodot"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Blockages",
+      "designation": [
+        {
+          "language": "en",
+          "value": "Blockages"
+        },
+        {
+          "language": "fi",
+          "value": "Tukokset"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Fetal effects",
+      "designation": [
+        {
+          "language": "en",
+          "value": "Fetal effects"
+        },
+        {
+          "language": "fi",
+          "value": "Sikiöhaitat"
+        }
+      ]
+    }
+  ],
+  "experimental": true
+}
